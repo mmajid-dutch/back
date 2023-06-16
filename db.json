@@ -7,21 +7,25 @@
         "items": [
           {
             "id": "2",
+            "link": "/topics/2",
             "title": "Book One",
             "type": "list"
           },
           {
             "id": "3",
+            "link": "/topics/3",
             "title": "Book Two",
             "type": "list"
           },
           {
             "id": "4",
+            "link": "/topics/4",
             "title": "Snack Book",
             "type": "list"
           },
           {
             "id": "11",
+            "link": "/topics/11",
             "title": "Error Book",
             "type": "list"
           }
@@ -35,21 +39,25 @@
         "items": [
           {
             "id": "5",
+            "link": "/topics/5",
             "title": "Chapter One",
             "type": "list"
           },
           {
             "id": "6",
+            "link": "/topics/6",
             "title": "Chapter Two",
             "type": "list"
           },
           {
             "id": "7",
+            "link": "/topics/7",
             "title": "Chapter Three",
             "type": "list"
           },
           {
             "id": "8",
+            "link": "/topics/8",
             "title": "Chapter Four",
             "type": "list"
           }
@@ -63,11 +71,13 @@
         "items": [
           {
             "id": "9",
+            "link": "/topics/9",
             "title": "Chapter One (B2)",
             "type": "list"
           },
           {
             "id": "1",
+            "link": "/media/1",
             "title": "Media One",
             "type": "media"
           }
@@ -81,21 +91,25 @@
         "items": [
           {
             "id": "10",
+            "link": "/topics/10",
             "title": "Chapter One",
             "type": "list"
           },
           {
             "id": "2",
+            "link": "/media/2",
             "title": "Media Two",
             "type": "media"
           },
           {
             "id": "3",
+            "link": "/media/3",
             "title": "Media Three",
             "type": "media"
           },
           {
             "id": "4",
+            "link": "/media/4",
             "title": "Error Media",
             "type": "media"
           }
@@ -115,21 +129,25 @@
         "items": [
           {
             "id": "5",
+            "link": "/media/5",
             "title": "Media Five",
             "type": "media"
           },
           {
             "id": "6",
+            "link": "/media/6",
             "title": "Media Six",
             "type": "media"
           },
           {
             "id": "7",
+            "link": "/media/7",
             "title": "Error Media",
             "type": "media"
           },
           {
             "id": "8",
+            "link": "/media/8",
             "title": "Snack Media",
             "type": "media"
           }
@@ -143,11 +161,13 @@
         "items": [
           {
             "id": "9",
+            "link": "/media/9",
             "title": "Media Nine",
             "type": "media"
           },
           {
             "id": "10",
+            "link": "/media/10",
             "title": "Media Ten",
             "type": "media"
           }
@@ -161,6 +181,7 @@
         "items": [
           {
             "id": "11",
+            "link": "/media/11",
             "title": "Media 11",
             "type": "media"
           }
@@ -174,6 +195,7 @@
         "items": [
           {
             "id": "12",
+            "link": "/media/12",
             "title": "Media 12",
             "type": "media"
           }
@@ -187,6 +209,7 @@
         "items": [
           {
             "id": "13",
+            "link": "/media/13",
             "title": "Media 13",
             "type": "media"
           }
@@ -200,6 +223,7 @@
         "items": [
           {
             "id": "14",
+            "link": "/media/14",
             "title": "Media 14",
             "type": "media"
           }
@@ -216,7 +240,7 @@
         "title": "Hoo!",
         "text": "You should register!",
         "theme": "error",
-        "action": "/v1/register"
+        "action": "/register"
       }
     }
   ],
@@ -227,7 +251,12 @@
         "topicTitle": "Book Two",
         "title": "Media One",
         "lengthSeconds": 1200,
-        "parts": []
+        "parts": [
+          {
+            "link": "https://storage-ir02.kashoob.com/audio/202306/enc_16862418013250862413684.mp3",
+            "lengthSeconds": 112
+          }
+        ]
       }
     },
     {
@@ -236,7 +265,12 @@
         "topicTitle": "Snack Book",
         "title": "Media Two",
         "lengthSeconds": 1200,
-        "parts": []
+        "parts": [
+          {
+            "link": "https://storage-ir02.kashoob.com/audio/202305/enc_16842540419328756575852.mp3",
+            "lengthSeconds": 112
+          }
+        ]
       }
     },
     {
@@ -245,7 +279,12 @@
         "topicTitle": "Snack Book",
         "title": "Media Three",
         "lengthSeconds": 1200,
-        "parts": []
+        "parts": [
+          {
+            "link": "http://localhost:5100/mp3/3.mp3",
+            "lengthSeconds": 112
+          }
+        ]
       }
     },
     {
@@ -254,14 +293,19 @@
         "topicTitle": "Snack Book",
         "title": "Error Media",
         "lengthSeconds": 1200,
-        "parts": []
+        "parts": [
+          {
+            "link": "http://localhost:5100/mp3/4.mp3",
+            "lengthSeconds": 112
+          }
+        ]
       },
       "message": {
         "type": "page",
         "title": "Ajab",
         "text": "You should register!",
         "theme": "error",
-        "action": "/v1/register"
+        "action": "/register"
       }
     },
     {
@@ -272,19 +316,19 @@
         "lengthSeconds": 1200,
         "parts": [
           {
-            "link": "/v1/media/5/parts/1",
+            "link": "/media/5/parts/1",
             "lengthSeconds": 112
           },
           {
-            "link": "/v1/media/5/parts/2",
+            "link": "/media/5/parts/2",
             "lengthSeconds": 217
           },
           {
-            "link": "/v1/media/5/parts/3",
+            "link": "/media/5/parts/3",
             "lengthSeconds": 512
           },
           {
-            "link": "/v1/media/5/parts/4",
+            "link": "/media/5/parts/4",
             "lengthSeconds": 617
           }
         ]
@@ -312,7 +356,7 @@
         "title": "Register",
         "text": "You should register!",
         "theme": "error",
-        "action": "/v1/register"
+        "action": "/register"
       }
     },
     {
@@ -380,7 +424,7 @@
       "id": 1,
       "mediaId": 5,
       "data": {
-        "link": "/v1/media/5/parts/1",
+        "link": "/media/5/parts/1",
         "lengthSeconds": 112
       }
     },
@@ -388,7 +432,7 @@
       "id": 2,
       "mediaId": 5,
       "data": {
-        "link": "/v1/media/5/parts/2",
+        "link": "/media/5/parts/2",
         "lengthSeconds": 217
       }
     },
@@ -396,7 +440,7 @@
       "id": 3,
       "mediaId": 5,
       "data": {
-        "link": "/v1/media/5/parts/3",
+        "link": "/media/5/parts/3",
         "lengthSeconds": 512
       }
     },
@@ -404,7 +448,7 @@
       "id": 4,
       "mediaId": 5,
       "data": {
-        "link": "/v1/media/5/parts/4",
+        "link": "/media/5/parts/4",
         "lengthSeconds": 617
       }
     }
