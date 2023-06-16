@@ -130,13 +130,13 @@
           {
             "id": "5",
             "link": "/media/5",
-            "title": "Media Five",
+            "title": "Four Parts",
             "type": "media"
           },
           {
             "id": "6",
             "link": "/media/6",
-            "title": "Media Six",
+            "title": "Media Six (2 Parts)",
             "type": "media"
           },
           {
@@ -196,7 +196,7 @@
           {
             "id": "12",
             "link": "/media/12",
-            "title": "Media 12",
+            "title": "Media 12 (2 Parts)",
             "type": "media"
           }
         ]
@@ -253,7 +253,7 @@
         "lengthSeconds": 1200,
         "parts": [
           {
-            "link": "https://storage-ir02.kashoob.com/audio/202306/enc_16862418013250862413684.mp3",
+            "link": "https://github.com/mmajid-dutch/back/raw/master/NLNL001.MP3",
             "lengthSeconds": 112
           }
         ]
@@ -267,7 +267,7 @@
         "lengthSeconds": 1200,
         "parts": [
           {
-            "link": "https://storage-ir02.kashoob.com/audio/202305/enc_16842540419328756575852.mp3",
+            "link": "https://github.com/mmajid-dutch/back/raw/master/NLNL002.MP3",
             "lengthSeconds": 112
           }
         ]
@@ -281,7 +281,7 @@
         "lengthSeconds": 1200,
         "parts": [
           {
-            "link": "http://localhost:5100/mp3/3.mp3",
+            "link": "https://github.com/mmajid-dutch/back/raw/master/NLNL003.MP3",
             "lengthSeconds": 112
           }
         ]
@@ -295,7 +295,7 @@
         "lengthSeconds": 1200,
         "parts": [
           {
-            "link": "http://localhost:5100/mp3/4.mp3",
+            "link": "https://github.com/mmajid-dutch/back/raw/master/NLNL004.MP3",
             "lengthSeconds": 112
           }
         ]
@@ -312,23 +312,23 @@
       "id": "5",
       "data": {
         "topicTitle": "Book One: Chapter One",
-        "title": "Media Five",
+        "title": "Four Parts",
         "lengthSeconds": 1200,
         "parts": [
           {
-            "link": "/media/5/parts/1",
+            "link": "https://github.com/mmajid-dutch/back/raw/master/NLNL005.MP3",
             "lengthSeconds": 112
           },
           {
-            "link": "/media/5/parts/2",
+            "link": "https://github.com/mmajid-dutch/back/raw/master/NLNL006.MP3",
             "lengthSeconds": 217
           },
           {
-            "link": "/media/5/parts/3",
+            "link": "https://github.com/mmajid-dutch/back/raw/master/NLNL007.MP3",
             "lengthSeconds": 512
           },
           {
-            "link": "/media/5/parts/4",
+            "link": "https://github.com/mmajid-dutch/back/raw/master/NLNL008.MP3",
             "lengthSeconds": 617
           }
         ]
@@ -338,9 +338,18 @@
       "id": "6",
       "data": {
         "topicTitle": "Book One: Chapter One",
-        "title": "Media Six",
+        "title": "Media Six (2 Parts)",
         "lengthSeconds": 1200,
-        "parts": []
+        "parts": [
+          {
+            "link": "https://github.com/mmajid-dutch/back/raw/master/NLNL009.MP3",
+            "lengthSeconds": 112
+          },
+          {
+            "link": "https://github.com/mmajid-dutch/back/raw/master/NLNL010.MP3",
+            "lengthSeconds": 112
+          }
+        ]
       }
     },
     {
@@ -380,7 +389,12 @@
         "topicTitle": "Book One: Chapter Two",
         "title": "Media Nine",
         "lengthSeconds": 1200,
-        "parts": []
+        "parts": [
+          {
+            "link": "https://github.com/mmajid-dutch/back/raw/master/NLNL011.MP3",
+            "lengthSeconds": 112
+          }
+        ]
       }
     },
     {
@@ -389,7 +403,12 @@
         "topicTitle": "Book One: Chapter Two",
         "title": "Media Ten",
         "lengthSeconds": 1200,
-        "parts": []
+        "parts": [
+          {
+            "link": "https://github.com/mmajid-dutch/back/raw/master/NLNL012.MP3",
+            "lengthSeconds": 112
+          }
+        ]
       }
     },
     {
@@ -397,16 +416,30 @@
       "data": {
         "title": "Media 11",
         "lengthSeconds": 1200,
-        "parts": []
+        "parts": [
+          {
+            "link": "https://github.com/mmajid-dutch/back/raw/master/NLNL013.MP3",
+            "lengthSeconds": 112
+          }
+        ]
       }
     },
     {
       "id": "12",
       "data": {
         "topicTitle": "Book One: Chapter Four",
-        "title": "Media 12",
+        "title": "Media 12 (2 Parts)",
         "lengthSeconds": 1200,
-        "parts": []
+        "parts": [
+          {
+            "link": "https://github.com/mmajid-dutch/back/raw/master/NLNL014.MP3",
+            "lengthSeconds": 112
+          },
+          {
+            "link": "https://github.com/mmajid-dutch/back/raw/master/NLNL015.MP3",
+            "lengthSeconds": 112
+          }
+        ]
       }
     },
     {
@@ -415,7 +448,13 @@
         "topicTitle": "Book Two : Chapter One",
         "title": "Media 13",
         "lengthSeconds": 1200,
-        "parts": []
+        "parts": [
+          {
+            "link": "https://github.com/mmajid-dutch/back/raw/master/NLNL016.MP3",
+            "lengthSeconds": 112
+          }
+
+        ]
       }
     }
   ],
