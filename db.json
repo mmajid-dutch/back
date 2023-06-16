@@ -457,39 +457,5 @@
         ]
       }
     }
-  ],
-  "parts": [
-    {
-      "id": 1,
-      "mediaId": 5,
-      "data": {
-        "link": "/media/5/parts/1",
-        "lengthSeconds": 112
-      }
-    },
-    {
-      "id": 2,
-      "mediaId": 5,
-      "data": {
-        "link": "/media/5/parts/2",
-        "lengthSeconds": 217
-      }
-    },
-    {
-      "id": 3,
-      "mediaId": 5,
-      "data": {
-        "link": "/media/5/parts/3",
-        "lengthSeconds": 512
-      }
-    },
-    {
-      "id": 4,
-      "mediaId": 5,
-      "data": {
-        "link": "/media/5/parts/4",
-        "lengthSeconds": 617
-      }
-    }
   ]
 }
