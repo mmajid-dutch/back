@@ -196,7 +196,7 @@
           {
             "id": "12",
             "link": "/media/12",
-            "title": "Media 12 (2 Parts)",
+            "title": "Media Six",
             "type": "media"
           }
         ]
@@ -428,18 +428,9 @@
       "id": "12",
       "data": {
         "topicTitle": "Book One: Chapter Four",
-        "title": "Media 12 (2 Parts)",
+        "title": "Media Six",
         "lengthSeconds": 1200,
-        "parts": [
-          {
-            "link": "https://github.com/mmajid-dutch/back/raw/master/NLNL014.MP3",
-            "lengthSeconds": 112
-          },
-          {
-            "link": "https://github.com/mmajid-dutch/back/raw/master/NLNL015.MP3",
-            "lengthSeconds": 112
-          }
-        ]
+        "parts": []
       }
     },
     {
@@ -448,13 +439,7 @@
         "topicTitle": "Book Two : Chapter One",
         "title": "Media 13",
         "lengthSeconds": 1200,
-        "parts": [
-          {
-            "link": "https://github.com/mmajid-dutch/back/raw/master/NLNL016.MP3",
-            "lengthSeconds": 112
-          }
-
-        ]
+        "parts": []
       }
     }
   ]
